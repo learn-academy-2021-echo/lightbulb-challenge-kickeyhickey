@@ -1,32 +1,43 @@
-*{
+* {
   background-color: darkgrey;
 }
 
-body{
+body {
   align-items: center;
   align-content: center;
   margin: auto;
   text-align: center;
   padding: 100px;
 }
-hr{
+#flykite {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+#flykite2 {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  transform: rotateY(180deg);
+}
+
+hr {
   height: 10px;
 }
-button{
+button {
   margin-bottom: 30px;
-  
 }
-
+#footer {
+  font-size: large;
+}
 #box {
-margin: auto;
-text-align: center;
-width: 150px;
-height: 150px;
-font-weight: bold;
-font-size: larger;
-align-items: center;
-margin-bottom: 30px;
-
-
-
+  margin: auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  font-size: larger;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 50%;
 }
